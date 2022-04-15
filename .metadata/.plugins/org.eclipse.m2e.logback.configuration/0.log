@@ -20,3 +20,328 @@
 2022-04-15 10:44:44,194 [Worker-12: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
 2022-04-15 10:44:44,243 [Worker-12: Discover lifecycle mappings] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/tmp/RemoteBundleDiscoveryStrategy94079935521052188.tmp/org.eclipse.m2e.discovery.oss_catalog_1.14.jar_15941701156899817862.jar!/lifecycle%2Forg.eclipse.m2e.discovery.extras.m2e-chromatic.xml
 2022-04-15 10:44:44,244 [Worker-12: Discover lifecycle mappings] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.extras.m2e-chromatic does not contain lifecycle mapping metadata
+2022-04-15 11:10:12,682 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 11:10:13,099 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sytempro.Inventory:Inventory:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/Inventory/pom.xml.
+2022-04-15 11:10:13,790 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Inventory/src/main/java
+2022-04-15 11:10:13,791 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Inventory/src/main/resources
+2022-04-15 11:10:13,792 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Inventory/src/main/resources
+2022-04-15 11:10:13,792 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Inventory/src/test/java
+2022-04-15 11:10:14,087 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-15 11:10:14,728 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:10:14,728 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:10:14,729 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:10:14,744 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:10:14,747 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:10:14,747 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:10:14,747 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/test/resources
+2022-04-15 11:10:34,526 [Worker-19: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/Inventory
+2022-04-15 11:10:34,529 [Worker-19: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2022-04-15 11:11:04,183 [Worker-22: Launching Executing install in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/Inventory
+2022-04-15 11:11:04,183 [Worker-22: Launching Executing install in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-04-15 11:13:38,528 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.sytempro.Inventory:Inventory:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/Inventory/pom.xml.
+2022-04-15 11:13:39,316 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:13:39,317 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:13:39,321 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:13:39,332 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:13:39,336 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:13:39,336 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:13:39,336 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/test/resources
+2022-04-15 11:13:40,531 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:13:40,532 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:13:40,533 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:13:40,534 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:13:40,539 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:13:40,539 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:13:40,539 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/test/resources
+2022-04-15 11:13:41,684 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/2.5.13-SNAPSHOT/spring-boot-starter-actuator-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:41,881 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-actuator/2.5.13-SNAPSHOT/spring-boot-starter-actuator-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:41,886 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:2.5.13-SNAPSHOT
+2022-04-15 11:13:42,700 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.13-SNAPSHOT/spring-boot-starter-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:42,905 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/2.5.13-SNAPSHOT/spring-boot-starter-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:42,907 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter:2.5.13-SNAPSHOT
+2022-04-15 11:13:43,724 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.13-SNAPSHOT/spring-boot-starter-logging-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:43,928 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/2.5.13-SNAPSHOT/spring-boot-starter-logging-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:43,932 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-logging:2.5.13-SNAPSHOT
+2022-04-15 11:13:44,752 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.13-SNAPSHOT/spring-boot-actuator-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:46,347 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator-autoconfigure/2.5.13-SNAPSHOT/spring-boot-actuator-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:46,353 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.13-SNAPSHOT
+2022-04-15 11:13:47,410 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/2.5.13-SNAPSHOT/spring-boot-actuator-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:48,639 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-actuator/2.5.13-SNAPSHOT/spring-boot-actuator-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:48,678 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:2.5.13-SNAPSHOT
+2022-04-15 11:13:49,574 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/micrometer/micrometer-core/1.7.11/micrometer-core-1.7.11-sources.jar
+2022-04-15 11:13:50,893 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.7.11/micrometer-core-1.7.11-sources.jar
+2022-04-15 11:13:51,506 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.7.11/micrometer-core-1.7.11-sources.jar
+2022-04-15 11:13:51,508 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.7.11
+2022-04-15 11:13:52,529 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.13-SNAPSHOT/spring-boot-starter-data-jpa-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:52,735 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/2.5.13-SNAPSHOT/spring-boot-starter-data-jpa-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:52,738 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jpa:2.5.13-SNAPSHOT
+2022-04-15 11:13:53,685 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.13-SNAPSHOT/spring-boot-starter-aop-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:53,844 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-aop/2.5.13-SNAPSHOT/spring-boot-starter-aop-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:53,847 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-aop:2.5.13-SNAPSHOT
+2022-04-15 11:13:54,757 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.13-SNAPSHOT/spring-boot-starter-jdbc-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:54,987 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/2.5.13-SNAPSHOT/spring-boot-starter-jdbc-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:13:54,990 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-jdbc:2.5.13-SNAPSHOT
+2022-04-15 11:13:56,011 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/data/spring-data-jpa/2.5.11-SNAPSHOT/spring-data-jpa-2.5.11-20220414.142152-33-sources.jar
+2022-04-15 11:13:57,035 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/data/spring-data-jpa/2.5.11-SNAPSHOT/spring-data-jpa-2.5.11-20220414.142152-33-sources.jar
+2022-04-15 11:13:57,038 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.5.11-SNAPSHOT
+2022-04-15 11:13:57,863 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/data/spring-data-commons/2.5.11-SNAPSHOT/spring-data-commons-2.5.11-20220415.101118-30-sources.jar
+2022-04-15 11:13:59,904 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/data/spring-data-commons/2.5.11-SNAPSHOT/spring-data-commons-2.5.11-20220415.101118-30-sources.jar
+2022-04-15 11:13:59,910 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.11-SNAPSHOT
+2022-04-15 11:14:00,926 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.13-SNAPSHOT/spring-boot-starter-web-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:01,132 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/2.5.13-SNAPSHOT/spring-boot-starter-web-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:01,157 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web:2.5.13-SNAPSHOT
+2022-04-15 11:14:02,360 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.13-SNAPSHOT/spring-boot-starter-json-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:02,566 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/2.5.13-SNAPSHOT/spring-boot-starter-json-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:02,582 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-json:2.5.13-SNAPSHOT
+2022-04-15 11:14:03,589 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.13-SNAPSHOT/spring-boot-starter-tomcat-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:03,794 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/2.5.13-SNAPSHOT/spring-boot-starter-tomcat-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:03,815 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-tomcat:2.5.13-SNAPSHOT
+2022-04-15 11:14:04,818 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-core/9.0.62/tomcat-embed-core-9.0.62-sources.jar
+2022-04-15 11:14:05,845 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.62/tomcat-embed-core-9.0.62-sources.jar
+2022-04-15 11:14:10,758 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.62/tomcat-embed-core-9.0.62-sources.jar
+2022-04-15 11:14:10,760 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.62
+2022-04-15 11:14:11,780 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-el/9.0.62/tomcat-embed-el-9.0.62-sources.jar
+2022-04-15 11:14:12,602 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.62/tomcat-embed-el-9.0.62-sources.jar
+2022-04-15 11:14:13,215 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.62/tomcat-embed-el-9.0.62-sources.jar
+2022-04-15 11:14:13,217 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.62
+2022-04-15 11:14:14,285 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.62/tomcat-embed-websocket-9.0.62-sources.jar
+2022-04-15 11:14:15,059 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.62/tomcat-embed-websocket-9.0.62-sources.jar
+2022-04-15 11:14:15,992 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.62/tomcat-embed-websocket-9.0.62-sources.jar
+2022-04-15 11:14:15,994 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.62
+2022-04-15 11:14:17,105 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/2.5.13-SNAPSHOT/spring-boot-starter-cache-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:17,310 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-cache/2.5.13-SNAPSHOT/spring-boot-starter-cache-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:17,312 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-cache:2.5.13-SNAPSHOT
+2022-04-15 11:14:18,340 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.13-SNAPSHOT/spring-boot-devtools-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:18,949 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/2.5.13-SNAPSHOT/spring-boot-devtools-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:18,953 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.5.13-SNAPSHOT
+2022-04-15 11:14:19,973 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.13-SNAPSHOT/spring-boot-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:22,022 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/2.5.13-SNAPSHOT/spring-boot-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:22,071 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.5.13-SNAPSHOT
+2022-04-15 11:14:23,045 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.13-SNAPSHOT/spring-boot-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:25,093 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/2.5.13-SNAPSHOT/spring-boot-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:25,522 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.5.13-SNAPSHOT
+2022-04-15 11:14:26,477 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/2.5.13-SNAPSHOT/spring-boot-starter-test-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:26,731 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/2.5.13-SNAPSHOT/spring-boot-starter-test-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:26,791 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-test:2.5.13-SNAPSHOT
+2022-04-15 11:14:27,960 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/2.5.13-SNAPSHOT/spring-boot-test-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:28,912 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/2.5.13-SNAPSHOT/spring-boot-test-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:28,945 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.5.13-SNAPSHOT
+2022-04-15 11:14:30,140 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/2.5.13-SNAPSHOT/spring-boot-test-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:31,241 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/2.5.13-SNAPSHOT/spring-boot-test-autoconfigure-2.5.13-20220415.123333-17-sources.jar
+2022-04-15 11:14:31,246 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.5.13-SNAPSHOT
+2022-04-15 11:14:32,087 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:14:32,087 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:14:32,087 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:14:32,088 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:14:32,090 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:14:32,091 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:14:32,091 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/test/resources
+2022-04-15 11:15:07,681 [Worker-16: Launching Executing install in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/Inventory
+2022-04-15 11:15:07,682 [Worker-16: Launching Executing install in _home_fernando_temp-sts_controle-estoque_Inventory] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2022-04-15 11:15:38,813 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:15:38,814 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:15:38,814 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/main/resources
+2022-04-15 11:15:38,814 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/main/resources
+2022-04-15 11:15:38,816 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:15:38,816 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:15:38,816 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/Inventory/src/test/resources
+2022-04-15 11:20:27,576 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 11:20:28,818 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/h2database/h2/2.1.210/h2-2.1.210.pom
+2022-04-15 11:20:29,638 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210.pom
+2022-04-15 11:20:29,985 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210.pom
+2022-04-15 11:20:30,251 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/h2database/h2/2.1.210/h2-2.1.210.jar
+2022-04-15 11:20:30,457 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210.jar
+2022-04-15 11:20:34,553 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210.jar
+2022-04-15 11:20:35,001 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 11:20:35,002 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 11:20:35,003 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 11:20:35,005 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 11:20:35,169 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2022-04-15 11:20:35,171 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 11:20:35,381 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 11:20:35,663 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 11:20:35,663 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 11:20:35,663 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 11:20:35,664 [Worker-16: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 11:20:35,809 [Worker-16: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-15 11:20:36,582 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:36,582 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:36,583 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:20:36,603 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:20:36,606 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:36,607 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:36,607 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:20:37,245 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/h2database/h2/2.1.210/h2-2.1.210-sources.jar
+2022-04-15 11:20:43,975 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210-sources.jar
+2022-04-15 11:20:44,947 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:44,947 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:44,948 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:20:44,949 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:20:44,953 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:44,953 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:44,953 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:20:53,702 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.210/h2-2.1.210-sources.jar
+2022-04-15 11:20:53,703 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:2.1.210
+2022-04-15 11:20:54,553 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:54,554 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:54,554 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:20:54,554 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:20:54,557 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:20:54,557 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:20:54,557 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:21:35,228 [Worker-25: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/control-in-stock
+2022-04-15 11:21:35,228 [Worker-25: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2022-04-15 11:21:58,687 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:21:58,687 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:21:58,688 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:21:58,691 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:21:58,694 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:21:58,694 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:21:58,694 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:23:04,124 [Worker-24: Launching Executing install in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/control-in-stock
+2022-04-15 11:23:04,124 [Worker-24: Launching Executing install in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2022-04-15 11:29:58,811 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:29:58,812 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:29:58,812 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 11:29:58,840 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:29:58,844 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:29:58,844 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:29:58,845 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:57:07,059 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:57:07,060 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:57:07,061 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:57:07,062 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 11:57:07,065 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 11:57:07,065 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 11:57:07,065 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 11:59:55,134 [Worker-29: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/control-in-stock
+2022-04-15 11:59:55,135 [Worker-29: Launching Executing clean in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean -Dstyle.color=always
+2022-04-15 12:00:03,772 [Worker-34: Launching Executing install in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/fernando/temp-sts/controle-estoque/control-in-stock
+2022-04-15 12:00:03,773 [Worker-34: Launching Executing install in _home_fernando_temp-sts_controle-estoque_control-in-stock] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2022-04-15 12:01:39,458 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 12:01:39,659 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 12:01:40,195 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 12:01:40,196 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:01:40,196 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:01:40,197 [Worker-31: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 12:01:40,337 [Worker-31: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-15 12:01:40,712 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:01:40,712 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:01:40,712 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:01:40,725 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:01:40,727 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:01:40,727 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:01:40,727 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:21:04,311 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:04,312 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:04,314 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:21:04,315 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:21:04,317 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:04,317 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:04,317 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:21:38,394 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 12:21:38,644 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 12:21:39,262 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 12:21:39,262 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:21:39,263 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:21:39,263 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 12:21:39,385 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-15 12:21:40,206 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:40,206 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:40,207 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:21:40,231 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:21:40,233 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:40,234 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:40,234 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:21:53,181 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:53,181 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:53,183 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:21:53,184 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:21:53,187 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:21:53,187 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:21:53,187 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:23:34,094 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 12:23:34,309 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 12:23:34,872 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 12:23:34,872 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:23:34,873 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:23:34,873 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 12:23:35,000 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-15 12:23:35,706 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:23:35,706 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:23:35,707 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:23:35,731 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:23:35,736 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:23:35,737 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:23:35,737 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:24:56,012 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:24:56,012 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:24:56,014 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:24:56,017 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:24:56,019 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:24:56,019 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:24:56,019 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 12:33:03,463 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 12:33:03,694 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 12:33:04,311 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 12:33:04,312 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:33:04,312 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 12:33:04,312 [Worker-47: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 12:33:04,425 [Worker-47: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-15 12:33:05,182 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:33:05,182 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:33:05,183 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 12:33:05,204 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 12:33:05,207 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 12:33:05,207 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 12:33:05,208 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 13:49:44,715 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 13:49:44,720 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 13:49:44,776 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 13:49:44,782 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 13:49:44,786 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 13:49:44,787 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 13:49:44,787 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 13:57:04,403 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-15 13:57:04,763 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.systempro:control-in-stock:0.0.1-SNAPSHOT @ /home/fernando/temp-sts/controle-estoque/control-in-stock/pom.xml.
+2022-04-15 13:57:07,288 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/main/java
+2022-04-15 13:57:07,289 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 13:57:07,291 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /control-in-stock/src/main/resources
+2022-04-15 13:57:07,293 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /control-in-stock/src/test/java
+2022-04-15 13:57:08,069 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-04-15 13:57:08,977 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 13:57:08,977 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 13:57:08,977 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 13:57:09,013 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 13:57:09,016 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 13:57:09,016 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 13:57:09,016 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 15:18:01,520 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 15:18:01,521 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 15:18:01,526 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 15:18:01,529 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 15:18:01,534 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 15:18:01,535 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 15:18:01,535 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 16:17:13,441 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-15 16:32:03,218 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:03,220 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:03,227 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 16:32:03,294 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 16:32:03,301 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:03,301 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:03,301 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 16:32:04,668 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:04,668 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:04,669 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 16:32:04,678 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 16:32:04,685 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:04,686 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:04,686 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
+2022-04-15 16:32:55,724 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:55,724 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:55,729 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-15 16:32:55,769 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-15 16:32:55,773 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-15 16:32:55,773 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-15 16:32:55,773 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fernando/temp-sts/controle-estoque/control-in-stock/src/test/resources
