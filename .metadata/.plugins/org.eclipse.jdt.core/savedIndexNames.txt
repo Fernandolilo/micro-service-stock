@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/fernando/temp-sts/controle-estoque/.metadata/.plugins/org.eclipse.jdt.core
+2282351632.index
+2468974545.index
